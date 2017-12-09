@@ -1,0 +1,36 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#box-width {
+    background-color: red;
+    transition: width 3s ease-in;
+}
+
+#box-width:hover {
+    width: 400px;
+}
+
+#box-height {
+    background-color: green;
+    transition: height 3s ease-in;
+}
+
+#box-height:hover {
+    height: 400px;
+}
+
+
+
+#box-width-height {
+    background-color: blue;
+    transition: width 2s ease-out, height 2s ease-out;
+    
+}
+
+#box-width-height:hover {
+    width: 400px;
+    height: 400px; 
+}
